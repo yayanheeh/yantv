@@ -31,13 +31,13 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
-            <CardActionArea>
+            
         <CardMedia
           className={classes.media}
           image="/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
         />
-     </CardActionArea>
+     
 
 <iframe
             className={classes.iframe}
