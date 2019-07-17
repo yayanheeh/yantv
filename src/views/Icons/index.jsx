@@ -34,7 +34,7 @@ class Icons extends Component {
             
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="http://202.80.222.166/000001/2/ch14041511545447343123/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=SLB242102019071713433115345171"
           title="Contemplative Reptile"
         />
      
