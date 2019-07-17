@@ -33,9 +33,10 @@ class Icons extends Component {
         <div className={classes.root}>
             
         <CardMedia>
-       <video>
-  <source src="https://www.youtube.com/watch?v=abcdef" type="video/mp4"/>
-    </video> 
+    <video width="400" controls>
+  <source src="http://dmivll.mangomolo.com/dubaione/smil:dubaione.smil/playlist.m3u8" type="application/x-mpegURL">  
+  Your browser does not support HTML5 video.
+</video>
     </CardMedia>
 
      
