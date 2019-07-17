@@ -32,9 +32,7 @@ class Icons extends Component {
       <DashboardLayout title="Icons">
         <div className={classes.root}>
             
-        <CardMedia
-      overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
-    >
+        <CardMedia>
        <video>
   <source src="https://www.youtube.com/watch?v=abcdef" type="video/mp4"/>
     </video> 
