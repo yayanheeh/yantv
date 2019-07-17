@@ -35,7 +35,7 @@ class Icons extends Component {
         <CardMedia>
     <video width="400" controls>
   <source src="http://dmivll.mangomolo.com/dubaione/smil:dubaione.smil/playlist.m3u8" type="application/x-mpegURL">  
-  Your browser does not support HTML5 video.
+  </source>
 </video>
     </CardMedia>
 
