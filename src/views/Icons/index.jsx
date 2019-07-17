@@ -33,7 +33,7 @@ class Icons extends Component {
         <div className={classes.root}>
             
         <CardMedia>
-    <video width="300" controls>
+    <video width="250" controls>
   <source src="http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">  
   </source>
 </video>
