@@ -16,7 +16,7 @@ const styles = theme => ({
   },
   iframe: {
     width: '100%',
-    minHeight: '640px',
+    minHeight: '100px',
     border: 0
   }
 });
@@ -30,7 +30,7 @@ class Icons extends Component {
         <div className={classes.root}>
           <iframe
             className={classes.iframe}
-            src="https://material.io/tools/icons/?icon=accessibility&style=outline"
+            src="https://yayanheeh.github.io/live/plyr/Trans7.html"
             title="Material Design icons"
           />
         </div>
