@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import CardMedia from '@material-ui/core/CardMedia';
+
+
 // Externals
 import PropTypes from 'prop-types';
 
@@ -28,7 +31,15 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
-          <iframe
+            <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image="/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+        />
+     </CardActionArea>
+
+<iframe
             className={classes.iframe}
             src="https://yayanheeh.github.io/live/plyr/Trans7.html"
             title="Material Design icons"
