@@ -37,20 +37,7 @@ class Icons extends Component {
       <DashboardLayout title="Icons">
      
 <div className={classes.root}>
- Memulai
-Embed Youtube lebar penuh dengan React.js - Embed responsif
-Kevin Simper
-Kevin Simper
-13 Jan · 1 mnt dibaca
-
-Embed Youtube yang tidak responsif :(
-Pada artikel ini, Anda akan belajar cara membuat komponen reaksi yang dapat Anda gunakan untuk membuat komponen reaksi sematan youtube yang responsif.
-Setelah Anda menyematkan video youtube pertama Anda, Anda dengan cepat menyadari bahwa itu tidak responsif dan itu merusak desain Anda.
-Sayangnya iframe tidak dapat mempertahankan rasio itu sendiri karena domain tersebut adalah pihak ketiga, Anda tidak diizinkan untuk mengetahui konten iframe karena alasan keamanan dan privasi.
-Jadi apa yang bisa kamu lakukan?
-Kita bisa membuat div yang membungkus embed dan skala itu secara default ke jendela atau orang tua dan menjaga skala. Itu dapat diarsipkan dengan menggunakan margin dan memiliki iframe dalam, skala hingga 100% baik lebar dan tinggi dan kemudian membatasi ketinggian untuk "56,25%" yang merupakan skala 16/9.
-ekspor default ({youtubeId}) => { 
-  return ( 
+  
     <div 
       className = "video" 
       style = {{ 
