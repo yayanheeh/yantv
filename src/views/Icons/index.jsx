@@ -22,10 +22,7 @@ const styles = theme => ({
   root: {
     padding: theme.spacing.unit * 4
   },
-    yayan: {
-    width: '100%',
-    minHeight: '100px',
-    border: 0
+    embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   }
 });
 
@@ -36,31 +33,7 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
      
-<div className={classes.root}>
-  
-    <div
-      className="video"
-      style={{
-        position: "relative",
-        paddingBottom: "56.25%" /* 16:9 */,
-        paddingTop: 25,
-        height: 0
-      }}
-    >
-      <iframe
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%"
-        }}
-        src={`https://www.youtube.com/embed/${youtubeId}`}
-        frameBorder="0"
-      />
-    </div>
-
-</div>    
+   
 <div className={classes.root}>
       
               <div>
