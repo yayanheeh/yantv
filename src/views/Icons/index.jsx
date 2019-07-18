@@ -18,23 +18,18 @@ import { withStyles } from '@material-ui/core';
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
 // Component styles video 
-const videoWrapper ={ 
-     position: relative',
-     padding-bottom: 56.25%', /* 16:9 Aspect Ratio */ 
-     height: 0',
-     ​width: 100%; /* You can set this width to whatever suits your needs */     
-     margin: 0 auto',
-}
 
 // Component styles
 const styles = theme => ({
   root: {
     padding: theme.spacing.unit * 4
   },
-  iframe: {
-    width: '100%',
-    minHeight: '100px',
-    border: 0
+  videoWrapper: { 
+     position: relative',
+     padding-bottom: 56.25%',
+     height: 0;
+     ​width: 100%',  
+     margin: 0 auto',
   }
 });
 
