@@ -37,14 +37,48 @@ class Icons extends Component {
       <DashboardLayout title="Icons">
      
 <div className={classes.root}>
-     
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe width='560' height='315' src='https://www.youtube.com/embed/C8kWkS5l73M' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div></div>
+ Memulai
+Embed Youtube lebar penuh dengan React.js - Embed responsif
+Kevin Simper
+Kevin Simper
+13 Jan · 1 mnt dibaca
 
+Embed Youtube yang tidak responsif :(
+Pada artikel ini, Anda akan belajar cara membuat komponen reaksi yang dapat Anda gunakan untuk membuat komponen reaksi sematan youtube yang responsif.
+Setelah Anda menyematkan video youtube pertama Anda, Anda dengan cepat menyadari bahwa itu tidak responsif dan itu merusak desain Anda.
+Sayangnya iframe tidak dapat mempertahankan rasio itu sendiri karena domain tersebut adalah pihak ketiga, Anda tidak diizinkan untuk mengetahui konten iframe karena alasan keamanan dan privasi.
+Jadi apa yang bisa kamu lakukan?
+Kita bisa membuat div yang membungkus embed dan skala itu secara default ke jendela atau orang tua dan menjaga skala. Itu dapat diarsipkan dengan menggunakan margin dan memiliki iframe dalam, skala hingga 100% baik lebar dan tinggi dan kemudian membatasi ketinggian untuk "56,25%" yang merupakan skala 16/9.
+ekspor default ({youtubeId}) => { 
+  return ( 
+    <div 
+      className = "video" 
+      style = {{ 
+        position: "relative", 
+        paddingBottom: "56.25%" / * 16: 9 * /, 
+        paddingTop: 25, 
+        tinggi: 0 
+      }} 
+    > 
+      <iframe 
+        style = {{ 
+          position: "absolute", 
+          atas: 0, 
+          kiri: 0, 
+          lebar: "100%", 
+          tinggi: "100%" 
+        }} 
+        src = {` https://www.youtube. com / embed / $ {youtubeId} ` } 
+        frameBorder =" 0 " 
+      /> 
+    </div> 
+
+</div>    
 <div className={classes.root}>
       
               <div>
       <Paper className={classes.root}>
-   
+ 
         <CardMedia>
     <video width="200" controls>
   <source src="http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">  
