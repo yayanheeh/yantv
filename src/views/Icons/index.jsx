@@ -37,11 +37,11 @@ class Icons extends Component {
       <DashboardLayout title="Icons">
         <div className={classes.root}>
         <yayan
-            className={classes.yayan}
+            className={classes.yayan}>
             <video width="250" controls>
   <source src="http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">  
   </source>
-          />
+          </yayan>
 
 
               <div>
