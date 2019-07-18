@@ -26,9 +26,9 @@ const styles = theme => ({
   },
   videoWrapper: { 
      position: relative',
-     padding-bottom: 56.25%',
+     padding-bottom: 56.25',
      height: 0;
-     ​width: 100%',  
+     ​width: 100',  
      margin: 0 auto',
   }
 });
