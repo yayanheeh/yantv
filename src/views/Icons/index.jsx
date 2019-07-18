@@ -39,9 +39,7 @@ class Icons extends Component {
 <div className={classes.root}>
      
  <div className="yayan">.
-            <video controls>
-  <source src="http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">  
-  </source></video>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/C8kWkS5l73M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></div>
 
 <div className={classes.root}>
