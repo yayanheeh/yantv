@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import CardMedia from '@material-ui/core/CardMedia';
 
+import Paper from '@material-ui/core/Paper';
+
 
 // Externals
 import PropTypes from 'prop-types';
@@ -31,7 +33,9 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
-            
+              <div>
+      <Paper className={classes.root}>
+   
         <CardMedia>
     <video width="250" controls>
   <source src="http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">  
@@ -39,7 +43,8 @@ class Icons extends Component {
 </video>
     </CardMedia>
 
-     
+     </Paper>
+</div>
         </div>
       </DashboardLayout>
     );
