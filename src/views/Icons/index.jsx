@@ -17,6 +17,14 @@ import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
+// Component styles video 
+const videoWrapper ={ 
+     position: relative',
+     padding-bottom: 56.25%', /* 16:9 Aspect Ratio */ 
+     height: 0',
+     ​width: 100%; /* You can set this width to whatever suits your needs */     
+     margin: 0 auto',
+}
 
 // Component styles
 const styles = theme => ({
@@ -61,9 +69,7 @@ class Icons extends Component {
 </video> </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}><div className="embed-responsive embed-responsive-16by9">
-      <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
-    </div></Paper>
+          <Paper className={classes.paper}> test</Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={classes.paper}>xs=6 sm=3</Paper>
