@@ -25,12 +25,10 @@ const styles = theme => ({
   root: {
     padding: theme.spacing.unit * 4
   },
-    iframe:{
-    position: relative',
-    padding-bottom: 56.25',
+    yayan: {
     width: '100%',
-    minHeight: '0px',
-    margin: 0 auto
+    minHeight: '100px',
+    border: 0
   }
 });
 
