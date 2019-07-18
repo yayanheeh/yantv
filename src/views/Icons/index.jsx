@@ -29,7 +29,7 @@ const styles = theme => ({
      padding-bottom: 56.25',
      height: 0;
      ​width: 100',  
-     margin: 0 auto',
+     margin: 0 auto'
   }
 });
 
