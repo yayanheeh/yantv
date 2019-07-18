@@ -53,9 +53,12 @@ class Icons extends Component {
           <Paper className={classes.paper}>xs=12</Paper>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Paper className={classes.paper}>xs=12 sm=6</Paper>
+          <Paper className={classes.paper}><video width="250" controls>
+  <source src="http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">  
+  </source>
+</video> </Paper>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={6} sm={3}>
           <Paper className={classes.paper}>xs=12 sm=6</Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
