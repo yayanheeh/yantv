@@ -19,17 +19,18 @@ import { withStyles } from '@material-ui/core';
 import { Dashboard as DashboardLayout } from 'layouts';
 // Component styles video 
 
+
 // Component styles
 const styles = theme => ({
   root: {
     padding: theme.spacing.unit * 4
   },
-  videoWrapper: { 
-     position: relative',
-     padding-bottom: 56.25',
-     height: 0;
-     ​width: 100',  
-     margin: 0 auto'
+    iframe:{
+    position: relative',
+    padding-bottom: 56.25',
+    width: '100%',
+    minHeight: '0px',
+    margin: 0 auto
   }
 });
 
