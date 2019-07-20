@@ -19,11 +19,11 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-function GridIntegration(props: WithWidth) {
-  const classes = useStyles();
-  const { width } = props;
+class Test extends Component {
+  render() {
+    const { classes } = this.props;
 
-  return (
+    return (
     <div className={classes.root}>
       <Typography variant="subtitle1" gutterBottom>
         Current width: {width}
