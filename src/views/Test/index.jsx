@@ -56,35 +56,17 @@ class Icons extends Component {
 		 </source></video></center>
             
             mobile
-     <AppBar position="static" color="default">
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
-          variant="fullWidth"
-          aria-label="Full width tabs example"
-        >
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
+      <AppBar position="static">
+        <Tabs variant="fullWidth" value={value} onChange={handleChange}>
+          <LinkTab label="Page One" href="/drafts" />
+          <LinkTab label="Page Two" href="/trash" />
+          <LinkTab label="Page Three" href="/spam" />
         </Tabs>
       </AppBar>
-      <SwipeableViews
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-        index={value}
-        onChangeIndex={handleChangeIndex}
-      >
-        <TabPanel value={value} index={0} dir={theme.direction}>
-          Item One
-        </TabPanel>
-        <TabPanel value={value} index={1} dir={theme.direction}>
-          Item Two
-        </TabPanel>
-        <TabPanel value={value} index={2} dir={theme.direction}>
-          Item Three
-        </TabPanel>
-      </SwipeableViews>      
+      {value === 0 && <TabContainer>Page One</TabContainer>}
+      {value === 1 && <TabContainer>Page Two</TabContainer>}
+      {value === 2 && <TabContainer>Page Three</TabContainer>}
+      
 
  </Hidden>
 		   
