@@ -27,6 +27,7 @@ class Test extends Component {
     const { classes } = this.props;
 
     return (
+       <DashboardLayout title="Icons">
     <div className={classes.root}>
       <Typography variant="subtitle1" gutterBottom>
         Current width: {width}
