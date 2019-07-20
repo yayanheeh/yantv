@@ -25,6 +25,21 @@ import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
+// Div
+const videoContainer= {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+.videoContainer iframe,
+.videoContainer object,
+.videoContainer embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
 
 // Component styles
 const styles = theme => ({
@@ -51,7 +66,7 @@ class Icons extends Component {
 		 </source></video>
             
             mobile
- 
+ <div style={videoContainer}>tes</div>
 
  </Hidden>
 		   
