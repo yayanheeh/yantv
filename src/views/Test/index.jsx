@@ -59,4 +59,13 @@ function GridIntegration(props: WithWidth) {
   );
 }
 
-export default withWidth()(GridIntegration);
+</DashboardLayout>
+    );
+  }
+}
+
+Test.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(Test);
