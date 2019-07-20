@@ -42,7 +42,7 @@ class Icons extends Component {
           
             
         <Hidden xsDown>
-          <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen>
+          <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen></iframe>
         </Hidden>
         </Grid>
           
