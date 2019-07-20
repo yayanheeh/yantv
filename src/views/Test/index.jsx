@@ -53,7 +53,7 @@ class Icons extends Component {
           
             
         <Hidden xsDown>
-          <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="700" height="370" frameborder="0" allowfullscreen></iframe>
         </Hidden>
         </Grid>
           
@@ -61,6 +61,208 @@ class Icons extends Component {
             <Grid item xs>
            <Paper className={classes.paper}>
             <List className={classes.root}>
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Remy Sharp" src="https://yayanheeh.github.io/live/logo/gtv.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Gtv"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {" Gtv Live Streaming"}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Travis Howard" src="https://yayanheeh.github.io/live/logo/rcti.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Rcti"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {" Rcti Live Streaming"}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Cindy Baker" src="https://yayanheeh.github.io/live/logo/sctv.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Sctv"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {' Sctv Live Streaming'}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+    </List>
+             <List className={classes.root}>
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Remy Sharp" src="https://yayanheeh.github.io/live/logo/gtv.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Gtv"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {" Gtv Live Streaming"}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Travis Howard" src="https://yayanheeh.github.io/live/logo/rcti.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Rcti"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {" Rcti Live Streaming"}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Cindy Baker" src="https://yayanheeh.github.io/live/logo/sctv.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Sctv"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {' Sctv Live Streaming'}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+    </List>
+             
+             <List className={classes.root}>
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Remy Sharp" src="https://yayanheeh.github.io/live/logo/gtv.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Gtv"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {" Gtv Live Streaming"}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Travis Howard" src="https://yayanheeh.github.io/live/logo/rcti.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Rcti"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {" Rcti Live Streaming"}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem alignItems="flex-start">
+        <ListItemAvatar>
+          <Avatar alt="Cindy Baker" src="https://yayanheeh.github.io/live/logo/sctv.jpg" />
+        </ListItemAvatar>
+        <ListItemText
+          primary="Sctv"
+          secondary={
+            <React.Fragment>
+              <Typography
+                component="span"
+                variant="body2"
+                className={classes.inline}
+                color="textPrimary"
+              >
+                
+              </Typography>
+              {' Sctv Live Streaming'}
+            </React.Fragment>
+          }
+        />
+      </ListItem>
+    </List>
+             <List className={classes.root}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="https://yayanheeh.github.io/live/logo/gtv.jpg" />
