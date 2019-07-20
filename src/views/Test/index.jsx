@@ -5,6 +5,9 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import withWidth, { WithWidth } from '@material-ui/core/withWidth';
 import Typography from '@material-ui/core/Typography';
+// Shared layouts
+import { Dashboard as DashboardLayout } from 'layouts';
+
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
