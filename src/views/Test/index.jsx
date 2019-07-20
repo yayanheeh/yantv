@@ -27,20 +27,9 @@ import { withStyles } from '@material-ui/core';
 import { Dashboard as DashboardLayout } from 'layouts';
 // Div
 const videoContainer= {
-position: relative,
-padding-bottom: 56.25%,
-padding-top: 30px,
-height: 0, 
-overflow: hidden,
-}
-.videoContainer iframe,
-.videoContainer object,
-.videoContainer embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+    width: '100%',
+    minHeight: '100px',
+    border: 0
 }
 
 // Component styles
