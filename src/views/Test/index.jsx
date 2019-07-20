@@ -33,7 +33,7 @@ const styles = theme => ({
   },
   iframe: {
     width: '100%',
-    minHeight: '640px',
+    minHeight: '500px',
     border: 0
   }
 });
@@ -56,14 +56,14 @@ class Icons extends Component {
           <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="650" height="390" frameborder="0" allowfullscreen></iframe>
        
           
-          
-           <div className={classes.root}>
+          <br/>
+           
           <iframe
             className={classes.iframe}
             src="https://tv.yplay.online/comen"
             title="Komentar"
           />
-        </div>
+        
           
            </Hidden>
         </Grid>
