@@ -1,75 +1,66 @@
-import React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import React, { Component } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
-import withWidth, { WithWidth } from '@material-ui/core/withWidth';
-import Typography from '@material-ui/core/Typography';
+import withWidth from '@material-ui/core/withWidth';
+
+
+
+// Externals
+import PropTypes from 'prop-types';
+
+// Material helpers
+import { withStyles } from '@material-ui/core';
+
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
 
+// Component styles
+const styles = theme => ({
+  root: {
+    padding: theme.spacing.unit * 4
+  },
+  iframe: {
+    width: '100%',
+    minHeight: '640px',
+    border: 0
+  }
+});
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
-  }),
-);
-
-class Test extends Component {
+class Icons extends Component {
   render() {
     const { classes } = this.props;
 
     return (
-       <DashboardLayout title="Icons">
-    <div className={classes.root}>
-      <Typography variant="subtitle1" gutterBottom>
-        Current width: {width}
-      </Typography>
-      <Grid container spacing={3}>
-        <Hidden xsUp>
+      <DashboardLayout title="Icons">
+        <div className={classes.root}>
+          <Grid container spacing={3}>
+          <Hidden xlUp>
           <Grid item xs>
-            <Paper className={classes.paper}>xsUp</Paper>
+            <Paper className={classes.paper}>Destop</Paper>
           </Grid>
         </Hidden>
-        <Hidden smUp>
+          
+          <Hidden smUp>
           <Grid item xs>
-            <Paper className={classes.paper}>smUp</Paper>
+            <Paper className={classes.paper}>Mobile</Paper>
           </Grid>
         </Hidden>
-        <Hidden mdUp>
-          <Grid item xs>
-            <Paper className={classes.paper}>mdUp</Paper>
-          </Grid>
-        </Hidden>
-        <Hidden lgUp>
-          <Grid item xs>
-            <Paper className={classes.paper}>lgUp</Paper>
-          </Grid>
-        </Hidden>
-        <Hidden xlUp>
-          <Grid item xs>
-            <Paper className={classes.paper}>xlUp</Paper>
-          </Grid>
-        </Hidden>
-      </Grid>
-    </div>
-  );
-}
-
-</DashboardLayout>
+          
+          <iframe
+            className={classes.iframe}
+            src="https://material.io/tools/icons/?icon=accessibility&style=outline"
+            title="Material Design icons"
+          />
+            </Grid>
+        </div>
+      </DashboardLayout>
     );
   }
 }
 
-Test.propTypes = {
+Icons.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Test);
+export default withStyles(styles)(Icons);
