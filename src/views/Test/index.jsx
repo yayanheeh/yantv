@@ -48,11 +48,8 @@ class Icons extends Component {
         </Hidden>
           
             
-           <Hidden lgDown>
-          <Paper className={classes.paper}>DlgDown</Paper>
-        </Hidden>
-        <Hidden xlDown>
-          <Paper className={classes.paper}>DxlDown</Paper>
+        <Hidden xsDown>
+          <Paper className={classes.paper}>destop xsDown</Paper>
         </Hidden>
           
             </Grid>
