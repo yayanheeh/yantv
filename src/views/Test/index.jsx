@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SwipeableViews, { Component } from 'react-swipeable-views';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
