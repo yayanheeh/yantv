@@ -45,14 +45,17 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Yplay TV">
         <div className={classes.root}>
-          <Grid container spacing={3}>
-         <Grid item xs={8}>
+          
           <Hidden smUp>
-          mobile
+          <video controls="" autoplay="" name="media"><source src="http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="video/mp4"></video>
         </Hidden>
           
-            
-        <Hidden xsDown>
+          
+           <Hidden xsDown>
+          
+          <Grid container spacing={3}>
+         <Grid item xs={8}>
+       
           <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="655" height="390" frameborder="0" allowfullscreen></iframe>
        
           
@@ -65,8 +68,7 @@ class Icons extends Component {
           />
         
           
-           </Hidden>
-        </Grid>
+                   </Grid>
           
             
             <Grid item xs>
@@ -346,6 +348,8 @@ class Icons extends Component {
           
           
             </Grid>
+           </Hidden>
+
         </div>
       </DashboardLayout>
     );
