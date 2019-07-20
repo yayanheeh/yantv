@@ -47,6 +47,10 @@ class Icons extends Component {
           </Grid>
         </Hidden>
           
+            
+            <Hidden only={['sm', 'lg']}>
+          <Paper className={classes.paper}>Hidden on sm and lg</Paper>
+        </Hidden>
           
             </Grid>
         </div>
