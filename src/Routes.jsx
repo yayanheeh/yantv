@@ -13,6 +13,9 @@ import SignUp from './views/SignUp';
 import SignIn from './views/SignIn';
 import UnderDevelopment from './views/UnderDevelopment';
 import NotFound from './views/NotFound';
+import Test from './views/Test';
+
+
 
 export default class Routes extends Component {
   render() {
@@ -37,6 +40,11 @@ export default class Routes extends Component {
           component={ProductList}
           exact
           path="/products"
+        />
+       <Route
+          component={Test}
+          exact
+          path="/test"
         />
         <Route
           component={Typography}
