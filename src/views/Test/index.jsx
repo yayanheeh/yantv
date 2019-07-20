@@ -35,7 +35,7 @@ class Icons extends Component {
       <DashboardLayout title="Icons">
         <div className={classes.root}>
           <Grid container spacing={3}>
-         <Grid item xs={6}>
+         <Grid item xs={8}>
           <Hidden smUp>
           mobile
         </Hidden>
@@ -46,9 +46,11 @@ class Icons extends Component {
         </Hidden>
         </Grid>
           
-          <Grid item xs={3}>
-          <Paper className={classes.paper}>kiri</Paper>
+            
+            <Grid item xs>
+          <Paper className={classes.paper}>xs</Paper>
         </Grid>
+          
           
             </Grid>
         </div>
