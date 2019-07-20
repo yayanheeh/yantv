@@ -59,14 +59,14 @@ class Icons extends Component {
           
             
             <Grid item xs>
-          tes
+           <Paper className={classes.paper}>
             <List className={classes.root}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          <Avatar alt="Remy Sharp" src="https://yayanheeh.github.io/live/logo/gtv.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Brunch this weekend?"
+          primary="Gtv"
           secondary={
             <React.Fragment>
               <Typography
@@ -75,9 +75,9 @@ class Icons extends Component {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Ali Connors
+                
               </Typography>
-              {" — I'll be in your neighborhood doing errands this…"}
+              {" Gtv Live Streaming"}
             </React.Fragment>
           }
         />
@@ -85,10 +85,10 @@ class Icons extends Component {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+          <Avatar alt="Travis Howard" src="https://yayanheeh.github.io/live/logo/rcti.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Summer BBQ"
+          primary="Rcti"
           secondary={
             <React.Fragment>
               <Typography
@@ -97,9 +97,9 @@ class Icons extends Component {
                 className={classes.inline}
                 color="textPrimary"
               >
-                to Scott, Alex, Jennifer
+                
               </Typography>
-              {" — Wish I could come, but I'm out of town this…"}
+              {" Rcti Live Streaming"}
             </React.Fragment>
           }
         />
@@ -107,10 +107,10 @@ class Icons extends Component {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://yayanheeh.github.io/live/logo/sctv.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="Sctv"
           secondary={
             <React.Fragment>
               <Typography
@@ -119,15 +119,15 @@ class Icons extends Component {
                 className={classes.inline}
                 color="textPrimary"
               >
-                Sandra Adams
+                
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' Sctv Live Streaming'}
             </React.Fragment>
           }
         />
       </ListItem>
     </List>
-            tes
+            </Paper>
            
         </Grid>
           
