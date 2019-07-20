@@ -25,13 +25,7 @@ import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
-// Div
-const videoContainer= {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
+
 
 // Component styles
 const styles = theme => ({
@@ -56,9 +50,17 @@ class Icons extends Component {
          
             
             
- <div style={videoContainer}><video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="300" width="500">
+ <video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="300" width="500">
 							<source src="http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">
-		 </source></video></div>
+		 </source></video>
+
+Tes
+<div style="position:relative;height:0;overflow:hidden;max-width:100%;padding-bottom:56.25%;">
+  <iframe src="https://www.youtube.com/embed/2yqz9zgoC-U"  
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    frameborder="0"
+    allowfullscreen></iframe>
+</div>
 
  </Hidden>
 		   
