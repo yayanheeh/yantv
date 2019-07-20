@@ -43,17 +43,21 @@ class Icons extends Component {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Yplay TV">
-        <div className={classes.root}>
-          
-          <Hidden smUp>
+      <DashboardLayout title="Yplay tV">
+		    
+	<div className={classes.root}>	
+		<Hidden smUp>
           <video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="360" width="640">
 							<source src="http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">
             </source></video>
             
             mobile
  </Hidden>
-          
+		    </div>
+		
+		
+		    
+        <div className={classes.root}>
           
            <Hidden xsDown>
           
