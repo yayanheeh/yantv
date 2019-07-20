@@ -47,11 +47,7 @@ class Icons extends Component {
           </Grid>
         </Hidden>
           
-          <iframe
-            className={classes.iframe}
-            src="https://material.io/tools/icons/?icon=accessibility&style=outline"
-            title="Material Design icons"
-          />
+          
             </Grid>
         </div>
       </DashboardLayout>
