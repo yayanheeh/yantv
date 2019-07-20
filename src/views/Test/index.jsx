@@ -47,7 +47,7 @@ class Icons extends Component {
 		    
 	<div className={classes.root}>	
 		<Hidden smUp>
-          <video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="360" width="640">
+          <video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="250" width="300">
 							<source src="http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">
             </source></video>
             
