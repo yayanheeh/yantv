@@ -43,7 +43,7 @@ class Icons extends Component {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Yplay tV">
+      <DashboardLayout title="Yplay tv">
 		    
 	<div className={classes.root}>	
 		<Hidden smUp>
