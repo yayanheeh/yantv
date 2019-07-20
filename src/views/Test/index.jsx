@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
@@ -7,6 +6,7 @@ import withWidth from '@material-ui/core/withWidth';
 
 // Menu
 
+import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Divider from '@material-ui/core/Divider';
@@ -15,25 +15,10 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 
-// Tab
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
 
-function TabContainer(props) {
-  return (
-    <Typography component="div" style={{ padding: 8 * 3 }}>
-      {props.children}
-    </Typography>
-  );
-}
-
-TabContainer.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 // Externals
+import PropTypes from 'prop-types';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';
@@ -61,22 +46,12 @@ class Icons extends Component {
       <DashboardLayout title="Yplay tv">
 		   
 		<Hidden smUp>
-         <center> <video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="200" width="300">
+         <video id="player" class="video-js vjs-default-skin" controls preload="auto" autoplay controls height="200" width="300">
 							<source src="http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="application/x-mpegURL">
-		 </source></video></center>
+		 </source></video>
             
             mobile
-      <AppBar position="static">
-        <Tabs variant="fullWidth" value={value} onChange={handleChange}>
-          <LinkTab label="Page One" href="/drafts" />
-          <LinkTab label="Page Two" href="/trash" />
-          <LinkTab label="Page Three" href="/spam" />
-        </Tabs>
-      </AppBar>
-      {value === 0 && <TabContainer>Page One</TabContainer>}
-      {value === 1 && <TabContainer>Page Two</TabContainer>}
-      {value === 2 && <TabContainer>Page Three</TabContainer>}
-      
+ 
 
  </Hidden>
 		   
