@@ -72,7 +72,7 @@ Tes
           width: "100%",
           height: "100%"
         }}
-        src={`https://www.youtube.com/embed/${youtubeId}`}
+        src={`http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com`}
         frameBorder="0"
       />
     </div>
