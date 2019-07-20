@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import withWidth from '@material-ui/core/withWidth';
+import CardMedia from '@material-ui/core/CardMedia';
 
 // Menu
 
@@ -56,12 +57,13 @@ class Icons extends Component {
 		 </source></video>
 
 Tes
-<div style="position:relative;height:0;overflow:hidden;max-width:100%;padding-bottom:56.25%;">
-  <iframe src="https://www.youtube.com/embed/2yqz9zgoC-U"  
-    style="position:absolute;top:0;left:0;width:100%;height:100%;"
-    frameborder="0"
-    allowfullscreen></iframe>
-</div>
+<CardMedia 
+          component="video"
+          height="140"
+          image="http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com"
+          title="Contemplative Reptile" />
+
+
 
  </Hidden>
 		   
