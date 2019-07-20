@@ -55,6 +55,16 @@ class Icons extends Component {
         <Hidden xsDown>
           <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="600" height="370" frameborder="0" allowfullscreen></iframe>
        
+          
+          
+           <div className={classes.root}>
+          <iframe
+            className={classes.iframe}
+            src="https://tv.yplay.online/comen"
+            title="Komentar"
+          />
+        </div>
+          
            </Hidden>
         </Grid>
           
