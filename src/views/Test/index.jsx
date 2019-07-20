@@ -33,7 +33,6 @@ TabContainer.propTypes = {
 };
 
 // Externals
-import PropTypes from 'prop-types';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';
