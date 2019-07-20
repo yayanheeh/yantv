@@ -35,22 +35,20 @@ class Icons extends Component {
       <DashboardLayout title="Icons">
         <div className={classes.root}>
           <Grid container spacing={3}>
-          <Hidden xl>
-          <Grid item xs>
-            <Paper className={classes.paper}>Destop</Paper>
-          </Grid>
-        </Hidden>
-          
+         <Grid item xs={6}>
           <Hidden smUp>
-          <Grid item xs>
-            <Paper className={classes.paper}>Mobile</Paper>
-          </Grid>
+          mobile
         </Hidden>
           
             
         <Hidden xsDown>
-          <Paper className={classes.paper}>destop xsDown</Paper>
+          <iframe src="https://www.metube.id/embed/1?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen>
         </Hidden>
+        </Grid>
+          
+          <Grid item xs={3}>
+          <Paper className={classes.paper}>kiri</Paper>
+        </Grid>
           
             </Grid>
         </div>
