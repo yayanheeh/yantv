@@ -48,8 +48,11 @@ class Icons extends Component {
         </Hidden>
           
             
-            <Hidden only={['sm', 'lg']}>
-          <Paper className={classes.paper}>Hidden on sm and lg</Paper>
+           <Hidden lgDown>
+          <Paper className={classes.paper}>DlgDown</Paper>
+        </Hidden>
+        <Hidden xlDown>
+          <Paper className={classes.paper}>DxlDown</Paper>
         </Hidden>
           
             </Grid>
