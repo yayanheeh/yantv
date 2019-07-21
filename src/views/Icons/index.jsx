@@ -8,6 +8,18 @@ import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
+// Css
+const YanMenu = withStyles({
+  root: {
+    color : #75bf00;
+background-color : #fafff0;
+background-repeat : repeat-x;
+background-position : 50% top;
+margin-top : 1px;
+margin-bottom : 1px;
+padding : 2px;
+border : 1px solid #d4eba1;
+}
 
 // Component styles
 const styles = theme => ({
@@ -28,6 +40,8 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
+          <YanMenu>TESSSTEDS</YanMenu>
+          
           <iframe
             className={classes.iframe}
             src="https://material.io/tools/icons/?icon=accessibility&style=outline"
