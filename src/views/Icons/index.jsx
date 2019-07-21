@@ -4,8 +4,6 @@ import { withStyles } from '@material-ui/core/styles';
 // Externals
 import PropTypes from 'prop-types';
 
-// Material helpers
-import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
